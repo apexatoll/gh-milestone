@@ -65,7 +65,7 @@ func NewSurvey(flags Flags) *Survey {
 					FileName: "*.md",
 					Message:  "Description",
 				},
-				EditorCommand: os.Getenv("EDITOR") + " --wait",
+				EditorCommand: os.Getenv("EDITOR"),
 			},
 		})
 	}
